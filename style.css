@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Tahoma,sans-serif;
+}
+
+.topbar{
+    background:#111827;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 0 20px #00ff88;
+}
+
+.topbar h1{
+    color:#00ff88;
+    margin-bottom:15px;
+}
+
+#search{
+    width:80%;
+    max-width:500px;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    outline:none;
+}
+
+#games{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    cursor:pointer;
+    transition:.3s;
+    border:2px solid transparent;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#00ff88;
+    box-shadow:0 0 20px #00ff88;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.card h2{
+    color:#00ff88;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#ddd;
+}
